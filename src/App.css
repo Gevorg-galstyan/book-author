@@ -1,0 +1,15 @@
+.cursor-pointer{
+  cursor: pointer;
+}
+.hovered{
+  transition: all .3s ease;
+}
+.hovered:hover{
+  color: #fb61bd;
+}
+.color-red{
+  color: red;
+}
+.color-blue{
+  color: blue;
+}

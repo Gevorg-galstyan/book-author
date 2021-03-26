@@ -1,0 +1,2 @@
+export const getStorageUsers = () => !!localStorage.getItem('authors') ? JSON.parse(localStorage.getItem('authors')) : [];
+export const getStorageBooks = () => !!localStorage.getItem('books') ? JSON.parse(localStorage.getItem('books')) : [];
